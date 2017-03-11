@@ -38,7 +38,7 @@ int main()
     for (int i = 0; i < myV1.size(); i++) cout << myV1[i]<< " ";
     cout << "\n";
 
-    heapsort(myQ1);
+    heapsort(myV1);
 
     for (int i = 0; i < myV1.size(); i++) cout << myV1 [i]<< " ";
 
