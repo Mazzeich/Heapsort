@@ -35,14 +35,12 @@ int main()
     myV1.push_back(40);
     myV1.push_back(4);
 
-        for (int i = 0; i < myV1.size(); i++)
-            cout << myV1[i]<< " ";
-        cout << "\n";
+    for (int i = 0; i < myV1.size(); i++) cout << myV1[i]<< " ";
+    cout << "\n";
 
     heapsort(myQ1);
 
-    for (int i = 0; i < myV1.size(); i++)
-            cout << myV1 [i]<< " ";
+    for (int i = 0; i < myV1.size(); i++) cout << myV1 [i]<< " ";
 
     return 0;
 }
